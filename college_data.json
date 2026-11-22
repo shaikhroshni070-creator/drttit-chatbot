@@ -1,0 +1,252 @@
+{
+  "college": {
+    "name": "DR TTIT",
+    "tagline": "Ask me anything about the college",
+    "welcome": "Hi! I am the DR TTIT College Assistant. Ask me about admissions, courses, facilities, hostel, transport, placements or contact details."
+  },
+  "suggestions": [
+    "Admissions",
+    "Courses offered",
+    "Facilities",
+    "Hostel",
+    "Contact"
+  ],
+  "fees_reply": "Fees will vary every year. For more details please contact the admission enquiry on 9448574037 / 9886943625 or the college office on 08153-265447.",
+  "fee_words": [
+    "fee",
+    "fees",
+    "tuition",
+    "cost",
+    "charges",
+    "charge",
+    "scholarship",
+    "scholarships",
+    "pay",
+    "payment",
+    "afford"
+  ],
+  "fallback": "Sorry, I don't have that information yet. Please contact the admission enquiry on 9448574037 / 9886943625 or the college office on 08153-265447.",
+  "intents": [
+    {
+      "keywords": [
+        "hi",
+        "hello",
+        "hey",
+        "morning",
+        "afternoon"
+      ],
+      "response": "Hello! How can I help you today? You can ask about courses, admissions, facilities, hostel, transport, placements or contact details."
+    },
+    {
+      "keywords": [
+        "thanks",
+        "thank",
+        "thx"
+      ],
+      "response": "You're welcome! Let me know if you need anything else."
+    },
+    {
+      "keywords": [
+        "result",
+        "results",
+        "marks",
+        "revaluation",
+        "hall",
+        "ticket"
+      ],
+      "response": "VTU publishes semester results at results.vtu.ac.in. For hall tickets, revaluation and marks cards, contact the college Exam Section: Mr. Rajesh Kumar A, 7019504505 / 9741909022."
+    },
+    {
+      "keywords": [
+        "principal",
+        "president",
+        "founder",
+        "vice",
+        "dean",
+        "management",
+        "governing"
+      ],
+      "response": "Principal: Dr. Syed Ariff (B.E. Civil Engineering, Mysore University; Master's and Doctorate from UVCE, Bangalore). Phone: 9448574037.\nPresident of GVET: Dr. T. Venkat Vardhan.\nVice Principal: Dr. H. G. Shenoy.\nDean Academics: Prof. Ruckmani Divakaran.\nThe college was founded in 1986 by Dr. T. Thimmaiah under the Golden Valley Educational Trust (GVET)."
+    },
+    {
+      "keywords": [
+        "vision",
+        "mission",
+        "values",
+        "quality"
+      ],
+      "response": "Vision: to produce technically competent engineers with innovative skills, a positive attitude, leadership and professional ethics, with a focus on sustainable and new technology.\nMission:\n• Create an environment for teaching, learning and innovation with state-of-the-art infrastructure\n• Learn sustainable and new technologies through industry-institute collaboration\n• Produce technically competent engineers with ethics, discipline and social consciousness through holistic education"
+    },
+    {
+      "keywords": [
+        "attendance",
+        "condonation",
+        "regulations",
+        "cbcs",
+        "calendar",
+        "scheme"
+      ],
+      "response": "Attendance: a minimum of 85% in each subject per semester is required. The VTU Vice-Chancellor may condone up to 10% on the Principal's recommendation for medical reasons or participation in university-level sports, cultural activities, seminars or workshops. Students with a shortage repeat the semester.\nB.E. courses follow VTU regulations (OBE-CBCS from 2018-19 and earlier schemes). The academic calendar for 2026-27 is published by the college."
+    },
+    {
+      "keywords": [
+        "about",
+        "established",
+        "history",
+        "affiliation",
+        "affiliated",
+        "vtu",
+        "aicte",
+        "naac",
+        "nba",
+        "accreditation",
+        "approved",
+        "approval"
+      ],
+      "response": "Dr. T. Thimmaiah Institute of Technology (Dr.TTIT) was established in 1986 at Kolar Gold Fields, Karnataka - 563120.\n• Affiliated to Visvesvaraya Technological University (VTU), Belagavi\n• Approved by AICTE, New Delhi\n• Accredited by NBA and NAAC with A Grade; ISO 21001:2018 certified\n• Principal: Dr. Syed Ariff\n• President of GVET: Dr. T. Venkat Vardhan"
+    },
+    {
+      "keywords": [
+        "admission",
+        "admissions",
+        "apply",
+        "application",
+        "eligibility",
+        "enroll",
+        "counselling",
+        "process",
+        "documents",
+        "cet",
+        "kea",
+        "lateral",
+        "diploma",
+        "quota",
+        "entrance",
+        "eligible",
+        "lateral"
+      ],
+      "response": "First year B.E. admission:\n• Government quota (KEA): 2nd PUC / 12th with Physics and Mathematics plus one of Chemistry, Biotechnology, Biology, Electronics or Computer Science; minimum 45% in the optional subjects (40% for SC, ST, Category-I, 2A, 2B, 3A, 3B); must appear for the KEA CET.\n• Management quota: same academic eligibility, any part of India, no entrance exam, direct admission through the college.\n• Diploma lateral entry (2nd year): diploma with at least 45% in the final-year subjects (40% for reserved categories); KEA Diploma CET for government quota.\nDocuments include SSLC and 2nd PUC marks cards, study certificate, caste/income certificate if claiming reservation, plus Transfer Certificate for management quota.\nAdmission enquiries: 9448574037 / 9886943625"
+    },
+    {
+      "keywords": [
+        "course",
+        "courses",
+        "branch",
+        "branches",
+        "department",
+        "departments",
+        "program",
+        "programs",
+        "intake",
+        "seats",
+        "offered"
+      ],
+      "response": "DR TTIT offers B.E. in these programmes (intake):\n• Computer Science and Engineering: 120\n• CSE (Artificial Intelligence and Machine Learning): 90\n• Electronics and Communication Engineering: 60\n• Mining Engineering: 60\n• Mechanical Engineering: 30\n• Electrical and Electronics Engineering: 30\nTotal intake: 390."
+    },
+    {
+      "keywords": [
+        "hostel",
+        "hostels",
+        "accommodation",
+        "stay",
+        "mess",
+        "warden"
+      ],
+      "response": "The college has four boys' hostel blocks (A to D) and a separate girls' hostel with twin-sharing rooms.\n• Mess with North and South Indian food\n• 24-hour hot and cold water, RO drinking water and CCTV\n• Wi-Fi, medical facility, optional laundry, recreation area, gyms\n• Ragging, liquor, drugs and smoking are strictly prohibited\nGirls Hostel Warden: Prof. Punitha F, 9880398238. Hostel fees will vary every year; for details contact the admission enquiry on 9448574037 / 9886943625 or the college office on 08153-265447."
+    },
+    {
+      "keywords": [
+        "transport",
+        "transportation",
+        "bus",
+        "buses",
+        "route",
+        "routes"
+      ],
+      "response": "College buses run to Kolar, Bangarpet, KGF, Mulbagal (via Bethamangala) and the Boys Hostel (Block A).\nTransport Incharge: Mr. R N Chandra Kumar Gowda, 9845023138 / 8618625748."
+    },
+    {
+      "keywords": [
+        "library",
+        "books",
+        "journals",
+        "nptel",
+        "reading"
+      ],
+      "response": "The library has 44,405 volumes and 9,559 titles in a separate 1,260 sq m building, a Digital Library with 18 systems, a Language Lab, 36 national journals and NPTEL resources.\n• Issue section: 9:00 am to 4:30 pm\n• Reference section: 9:00 am to 10:00 pm\n• Students can borrow 2 books for up to 2 weeks."
+    },
+    {
+      "keywords": [
+        "sports",
+        "gym",
+        "gymnasium",
+        "cricket",
+        "football",
+        "golf",
+        "track",
+        "kabaddi",
+        "badminton",
+        "basketball",
+        "volleyball"
+      ],
+      "response": "Sports facilities (7-acre area):\n• 400 m athletics track with field events\n• Cricket and football ground, basketball, volleyball/throwball, kho-kho and kabaddi courts\n• Indoor: shuttle badminton, table tennis, chess and carrom\n• 18-hole golf course\n• Gyms: state-of-the-art gym in the Student Centre, plus gyms at the Girls Hostel and Block C\nPhysical Education Director: A. V. Srinivas Reddy."
+    },
+    {
+      "keywords": [
+        "facility",
+        "facilities",
+        "lab",
+        "labs",
+        "laboratory",
+        "laboratories",
+        "amphitheatre",
+        "internet",
+        "wifi",
+        "canteen",
+        "medical",
+        "campus"
+      ],
+      "response": "Campus facilities (over 30 acres):\n• Library and digital learning centre\n• Computer and other laboratories\n• Student Centre with gym, canteen and seminar hall, and an amphitheatre\n• Sports: 400 m track, cricket, football, basketball, volleyball, kho-kho, kabaddi, indoor games, 18-hole golf course\n• Wi-Fi in all buildings, in-house medical centre, guest house\n• Boys and girls hostels and college transport"
+    },
+    {
+      "keywords": [
+        "placement",
+        "placements",
+        "recruiter",
+        "recruiters",
+        "job",
+        "jobs",
+        "training",
+        "internship",
+        "package",
+        "companies",
+        "company",
+        "recruit",
+        "recruits",
+        "recruiting",
+        "hiring",
+        "hire",
+        "salary",
+        "campus",
+        "cisco",
+        "tcs"
+      ],
+      "response": "The Training and Placement department provides more than 350 job opportunities every year, with job readiness training, soft skills and certifications (Cisco CCNA, RPA, RedHat, TCS IT Employability, Autodesk).\nRecruiters and partners include TCS, Cisco, BEML, Bill Forge, NIRM, CADD Centre and Seventh Sense.\nPlacement statistics and package figures are not published. Placement Cell: 9900944775."
+    },
+    {
+      "keywords": [
+        "contact",
+        "phone",
+        "email",
+        "address",
+        "location",
+        "reach",
+        "number",
+        "call",
+        "website",
+        "where"
+      ],
+      "response": "Dr. T. Thimmaiah Institute of Technology\nOorgaum, Kolar Gold Fields, Karnataka - 563120\nOffice: 08153-265447\nAdmission enquiries: 9448574037 / 9886943625\nPrincipal: Dr. Syed Ariff, 9448574037\nNo email address is published; the college has an online contact form."
+    }
+  ]
+}

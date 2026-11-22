@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DR TTIT | College Enquiry Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header class="navbar">
+
+    <a href="#home" class="brand">
+        <div class="logo">TT</div>
+
+        <div>
+            <h2>DR TTIT</h2>
+            <small>Institute of Technology</small>
+        </div>
+    </a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Departments</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#admission">Admission</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav-chat" onclick="toggleChat()">
+        Ask AI
+    </button>
+
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <span class="tag">WELCOME TO DR TTIT</span>
+
+        <h1>
+            Learn. Innovate.
+            <span>Build Your Future.</span>
+        </h1>
+
+        <p>
+            Welcome to Dr. T. Thimmaiah Institute of Technology,
+            Oorgaum, Kolar Gold Fields. Explore our engineering
+            departments, campus facilities and admission information.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#courses" class="primary-btn">
+                Explore Departments
+            </a>
+
+            <button class="secondary-btn"
+                    onclick="toggleChat()">
+                Chat with AI Assistant
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="hero-card">
+
+        <div class="orb">✦</div>
+
+        <p>YOUR DIGITAL COLLEGE ASSISTANT</p>
+
+        <h2>How can we help you today?</h2>
+
+        <p>
+            Ask about admissions, departments,
+            facilities and contact details.
+        </p>
+
+        <button onclick="toggleChat()">
+            Start a Conversation →
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- Statistics -->
+<section class="stats">
+
+    <div>
+        <h2>1986</h2>
+        <p>Established</p>
+    </div>
+
+    <div>
+        <h2>6</h2>
+        <p>Engineering Departments</p>
+    </div>
+
+    <div>
+        <h2>390</h2>
+        <p>Total Intake Across Departments</p>
+    </div>
+
+    <div>
+        <h2>NAAC A</h2>
+        <p>Grade Accreditation, NBA Accredited</p>
+    </div>
+
+</section>
+
+
+<!-- About -->
+<section class="section" id="about">
+
+    <span class="tag">ABOUT OUR INSTITUTION</span>
+
+    <h2>Dr. T. Thimmaiah Institute of Technology</h2>
+
+    <p class="description">
+        Established in 1986, Dr. T. Thimmaiah Institute of Technology
+        (DR TTIT) is an engineering institution located at Oorgaum,
+        Kolar Gold Fields, Karnataka - 563120.
+    </p>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+            <h3>Affiliation</h3>
+            <p>Visvesvaraya Technological University, Belagavi.</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Approval</h3>
+            <p>Approved by AICTE, New Delhi.</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Accreditation</h3>
+            <p>NBA and NAAC A Grade.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Departments -->
+<section class="section dark-section" id="courses">
+
+    <span class="tag">ACADEMICS</span>
+
+    <h2>Our Engineering Departments</h2>
+
+    <p class="description">
+        Undergraduate engineering programmes offered by DR TTIT,
+        with the intake of each department.
+    </p>
+
+    <div class="department-grid">
+
+        <div class="department-card">
+            <span>01</span>
+            <h3>Computer Science and Engineering</h3>
+            <p>CSE · Intake: 120</p>
+        </div>
+
+        <div class="department-card">
+            <span>02</span>
+            <h3>CSE - Artificial Intelligence and Machine Learning</h3>
+            <p>CSE (AI &amp; ML) · Intake: 90</p>
+        </div>
+
+        <div class="department-card">
+            <span>03</span>
+            <h3>Electronics and Communication Engineering</h3>
+            <p>ECE · Intake: 60</p>
+        </div>
+
+        <div class="department-card">
+            <span>04</span>
+            <h3>Mining Engineering</h3>
+            <p>Mining · Intake: 60</p>
+        </div>
+
+        <div class="department-card">
+            <span>05</span>
+            <h3>Mechanical Engineering</h3>
+            <p>ME · Intake: 30</p>
+        </div>
+
+        <div class="department-card">
+            <span>06</span>
+            <h3>Electrical and Electronics Engineering</h3>
+            <p>EEE · Intake: 30</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Facilities -->
+<section class="section" id="facilities">
+
+    <span class="tag">CAMPUS LIFE</span>
+
+    <h2>Campus Facilities</h2>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+            <div class="facility-icon">📚</div>
+            <h3>Library and Digital Learning Centre</h3>
+            <p>Learning resources and a digital learning centre.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="facility-icon">💻</div>
+            <h3>Computer Laboratories</h3>
+            <p>Laboratories for practical learning.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="facility-icon">🎓</div>
+            <h3>Student Centre</h3>
+            <p>A centre for student activities on campus.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="facility-icon">🎭</div>
+            <h3>Amphitheatre</h3>
+            <p>An open venue for campus events.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="facility-icon">🏠</div>
+            <h3>Boys and Girls Hostels</h3>
+            <p>Separate hostel facilities for boys and girls.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="facility-icon">⚽</div>
+            <h3>Sports Facilities</h3>
+            <p>Sports facilities for students.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="facility-icon">🏋️</div>
+            <h3>Gymnasium</h3>
+            <p>A gymnasium for fitness activities.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="facility-icon">🚌</div>
+            <h3>Transportation</h3>
+            <p>College transportation facilities.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Admission -->
+<section class="admission" id="admission">
+
+    <div>
+        <span class="tag">START YOUR JOURNEY</span>
+        <h2>Looking for Admission Information?</h2>
+        <p>
+            The college offers undergraduate engineering admissions.
+            Eligibility and counselling depend on the applicable
+            admission rules.
+        </p>
+        <p>
+            Admission enquiries:
+            <a href="tel:9448574037">9448574037</a> /
+            <a href="tel:9886943625">9886943625</a>
+        </p>
+    </div>
+
+    <div class="admission-actions">
+
+        <button onclick="askQuestion('Tell me about the admission process')">
+            Ask Admission Assistant →
+        </button>
+
+        <a href="https://www.drttit.edu.in/Academics"
+           target="_blank" rel="noopener" class="outline-btn">
+            Official Admission Page →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- Contact -->
+<section class="section" id="contact">
+
+    <span class="tag">GET IN TOUCH</span>
+
+    <h2>Contact Our College</h2>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+            <h3>Address</h3>
+            <p>
+                Dr. T. Thimmaiah Institute of Technology<br>
+                Oorgaum, Kolar Gold Fields,<br>
+                Karnataka - 563120
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>Phone</h3>
+            <p>
+                Office: <a href="tel:08153265447">08153-265447</a><br>
+                Admission enquiry:<br>
+                <a href="tel:9448574037">9448574037</a>,
+                <a href="tel:9886943625">9886943625</a>
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>Website</h3>
+            <p>
+                <a href="https://drttit.gvet.edu.in/"
+                   target="_blank" rel="noopener">
+                    Visit Official College Website →
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer>
+    <h3>DR TTIT</h3>
+    <p>Dr. T. Thimmaiah Institute of Technology, Oorgaum, Kolar Gold Fields</p>
+    <p>AI-Based College Enquiry Chatbot · © 2026</p>
+</footer>
+
+
+<!-- Chatbot -->
+<button class="chat-launcher"
+        onclick="toggleChat()">
+    ✦
+    <span>Ask AI</span>
+</button>
+
+
+<div class="chat-window" id="chatWindow">
+
+    <div class="chat-header">
+
+        <div>
+            <h3>✦ DR TTIT AI Assistant</h3>
+            <small>College Enquiry Support</small>
+        </div>
+
+        <button onclick="toggleChat()">×</button>
+
+    </div>
+
+
+    <div class="chat-body" id="chatMessages">
+
+        <div class="bot-message">
+            Hello! 👋 Welcome to Dr. T. Thimmaiah Institute
+            of Technology.
+
+            I'm your AI College Enquiry Assistant.
+
+            Ask me about courses, admissions,
+            departments, facilities and contact details.
+        </div>
+
+    </div>
+
+
+    <div class="suggestions">
+
+        <button onclick="askQuestion('What courses are offered?')">
+            Courses
+        </button>
+
+        <button onclick="askQuestion('What facilities are available?')">
+            Facilities
+        </button>
+
+        <button onclick="askQuestion('What is the admission process?')">
+            Admissions
+        </button>
+
+        <button onclick="askQuestion('How can I contact the college?')">
+            Contact
+        </button>
+
+    </div>
+
+
+    <form class="chat-input" id="chatForm">
+
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Ask your question..."
+            maxlength="1000"
+            autocomplete="off"
+            required
+        >
+
+        <button type="submit">➤</button>
+
+    </form>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
